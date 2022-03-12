@@ -1,0 +1,247 @@
+/* Mobile and Tablet */
+@media (max-width: 1024px){
+    .hide-on-mobie-tablet{
+        display: none;
+    }
+    .header__nav-logo-img{
+        margin-left: 10px;
+        width: 180px;
+    }
+    
+    
+}
+
+/* Only Tablet */
+@media (min-width: 768px) and (max-width: 1024px){
+    .hide-on-table{
+        display: none;
+    }
+    @keyframes toTop {
+        from {
+            height: 150px;
+        }
+        to {
+            height: 90px;
+        }
+    }
+    .header__nav-container-item-link{
+        font-size: 1.2rem;
+    }
+    .header__nav-logo-img{
+        margin-top: 10px;
+        width: 160px;
+    }
+    .home__carousel-format iframe{
+       text-align: left;
+    }
+    .social__connect{
+        bottom: 30%;
+    }    
+    .home__cake-list{
+        margin-left: 28px;    
+   }
+   .home__discount-tilte--header{
+       font-size: 2.6rem;
+   }
+   .home__discount-title--header-description{
+       font-size: 2.2rem;
+   }
+   .home__discount-title-decor{
+        width: 100px;
+        height: 4px;
+    }
+    .home__discount-item-heading{
+        font-size: 1.7rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .home__discount-item-subheading span {
+        font-size: 1.2rem;
+    }
+
+    .home__discount-item-subheading{
+        font-size: 1.4rem;
+    }
+    .home__about-us-owner-picture{
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+    .home__about-us-owner{
+        display: block;
+    }
+    .home__about-us-slogan{
+        font-size: 3rem;
+    }
+    .footer__logo{
+        width: 150px;
+    }
+    .footer__heading{
+        font-size: 1.4rem;
+    }
+    .footer__list-items{
+        font-size: 1rem;
+    }
+    .footer__list-items i{
+      
+        margin-right: 5px;
+    }
+    .footer__wrap--table .footer__list-items{
+        font-size: 0.8rem;
+    }
+    .footer__list-download a{
+        margin-bottom: 0px;
+    }
+    .home__cake-menu-list .btn{
+        font-size: 1.2rem;
+    }
+    .home__cake-item {
+        margin-right: 35px;
+    }
+    .home__discount-item-subheading{
+        font-size: 1.2rem;
+    }
+    .header__topbar-container-number{
+        margin-right: 20px;
+    }
+
+
+
+}
+ /* Only Mobile */
+ @media (max-width:767px){
+     .hide-on-mobile{
+         display: none;
+     }
+     .header{
+        height: 90px;
+     }
+     .header__nav-container .row{
+        height: 90px;
+    }
+    .header__nav-logo-img{
+        margin-top: 15px;
+        width: 45%;
+    }
+    .header .scroll {
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        z-index: 100;
+        animation: toTop 1.5s ease forwards;
+    }
+    @keyframes toTop {
+        from {
+            height: 90px;
+        }
+        to {
+            height: 90px;
+        }
+    }
+  
+    .home__carousel-format iframe{
+        width: 80%;
+        height: 280px;
+        margin-left: 40px;
+
+    }
+    .home__carousel{
+        height: 380px;
+    }
+    .home__discount-tilte--header, .home__about-us-title{
+        font-size: 3rem;
+    }
+    .home__discount-title--header-description, .home__about-us-subtitle{
+        font-size: 1.6rem;
+    }
+    .home__discount-item-heading{
+        font-size: 1.6rem;
+        margin: 15px 10px 5px 10px;
+    }
+    .home__discount-item-subheading{
+        font-size: 1.2rem;
+        margin:  0px 10px 5px 10px;
+    }
+    .home__discount-item-learn-more{
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .home-product-item__price{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .home-product-item__price-old{
+        font-size: 1.4rem;
+    }
+    .home-product-item__price-current{
+        font-size: 1.6rem;
+    }
+    .home__discount-item-subheading span{
+        font-size: 1.2rem;
+    }
+    .home__discount-item-learn-more{
+        margin-left: 10px;
+    }
+    .home__about-us-owner-picture{
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+    .home__about-us-owner{
+        display: block;
+    }
+    .home__about-us-owner-description{
+        font-size: 1.4rem;
+    }
+    .home__about-us-slogan{
+        margin-top: 10px;
+        font-size: 2.1rem;
+        margin-bottom: 10px;
+    }
+    .footer__separate{
+        padding-top: 10px;
+    }
+    .footer__margin--bottom{
+        margin-left: 15px;
+    }
+    footer{
+        height: 725px;
+    }
+    .footer__list-download{
+        margin-bottom: 20px;
+    }
+    .footer__wrap--table{
+        margin-left: 25px;
+    }
+    .footer__bottom{
+        margin-top: 290px;
+    }
+    .footer__left, .footer__right{
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+    .home__about-brandapp img{
+        width: 500px;
+        height:200px;
+    }
+    .modal__container{
+        width: 300px;
+    }
+    .modal__body-sub{
+        text-align: center;
+    }
+    .modal__body-sub span:first-child{
+        font-size: 1.3rem;   
+    }
+    .modal__body-sub span:last-child{
+        font-size: 1.2rem;   
+    }
+    .modal__body-input{
+        margin: 5px 0 8px 7px;
+    }
+
+    .modal__sendinfo{
+        right: -20.4%;
+    }
+  
+}
